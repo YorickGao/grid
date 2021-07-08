@@ -1,0 +1,48 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropbtn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.dropbtn:hover {background-color: #2563eb;}
+
+.box {
+    border-radius: 8px;
+    height: 100px;
+    background-color: #f87171;
+    font-size: 20px;
+    font-weight: 700;
+    color: yellow;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    width: 1000px;
+    grid-gap: 10px;
+    background-color: #ececec;
+    padding: 10px;
+}
+
+.closeBtn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 0 4px;
+    background-color: wheat;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
